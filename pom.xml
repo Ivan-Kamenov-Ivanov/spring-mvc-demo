@@ -24,6 +24,11 @@
       <artifactId>spring-webmvc</artifactId>
       <version>4.3.3.RELEASE</version>
     </dependency>
+      <dependency>
+          <groupId>org.apache.tomcat.embed</groupId>
+          <artifactId>tomcat-embed-core</artifactId>
+          <version>9.0.70</version>
+      </dependency>
 
   </dependencies>
   <build>
