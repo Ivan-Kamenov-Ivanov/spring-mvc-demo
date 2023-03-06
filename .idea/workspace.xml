@@ -4,19 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c237b9b-dcc6-4c60-b2a9-5bf0639be9cb" name="Changes" comment="LifecycleException">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springMVCApp/HelloWorldController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springMVCApp/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springMVCApp/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springMVCApp/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/helloWorld-form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/helloWorld.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main-menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student-confirmation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student-form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7c237b9b-dcc6-4c60-b2a9-5bf0639be9cb" name="Changes" comment="Lifecycle Exception repaired.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/springMVCApp/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springMVCApp/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customer-confirmation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customer-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-validator-6.2.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-validator-annotation-processor-6.2.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-validator-cdi-6.2.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jakarta.el-3.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springMVCApp/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springMVCApp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springMVCApp/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springMVCApp/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springMVCApp/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hello_world.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main-menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student-confirmation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student-form.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +69,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/subma/IdeaProjects/Store/spring-mvc-demo/src/main/java/springMVCApp",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/subma/IdeaProjects/Store/spring-mvc-demo/src/main/webapp/WEB-INF/lib/jboss-logging-3.4.1.Final.jar",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
@@ -76,6 +84,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\subma\IdeaProjects\Store\spring-mvc-demo\src\main\webapp\WEB-INF\lib" />
       <recent name="C:\Users\subma\IdeaProjects\Store\spring-mvc-demo\src\main\java\springMVCApp" />
       <recent name="C:\Users\subma\IdeaProjects\Store\spring-mvc-demo\src\main\webapp\WEB-INF\jsp" />
     </key>
@@ -138,8 +147,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.springMVCApp in spring-mvc-demo" />
         <item itemvalue="JUnit.All in spring-mvc-demo" />
+        <item itemvalue="JUnit.springMVCApp in spring-mvc-demo" />
       </list>
     </recent_temporary>
   </component>
@@ -159,11 +168,30 @@
       <option name="project" value="LOCAL" />
       <updated>1676727798200</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lifecycle Exception repaired.">
+      <created>1677055455196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677055455196</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LifecycleException" />
-    <option name="LAST_COMMIT_MESSAGE" value="LifecycleException" />
+    <MESSAGE value="Lifecycle Exception repaired." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lifecycle Exception repaired." />
   </component>
 </project>
